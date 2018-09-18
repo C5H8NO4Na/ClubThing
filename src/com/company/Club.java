@@ -15,6 +15,9 @@ public class Club {
         this.name=name;
     }
 
+    Club(){
+    }
+
     public Club getNext(){
         return next;
     }
@@ -103,4 +106,6 @@ public class Club {
     public void setSponsor(String name){
         sponsor=new Teacher(name);
     }
+
+    public void setName(String name) { this.name=name; }
 }
