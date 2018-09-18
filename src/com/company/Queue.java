@@ -1,5 +1,5 @@
 package com.company;
-
+//still also stack, will fix
 public class Queue {
 
     public Club head;
