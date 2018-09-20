@@ -15,7 +15,6 @@ public class Stack {
         head = club;
         head.next = oldHead;
     }
-
     public Club peek() {
         return head;
     }
